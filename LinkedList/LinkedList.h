@@ -32,6 +32,7 @@ public:
 	void remove(int index);
 
 	T at(int index);
+	void set(int index, T data);
 
 	size_t size();
 
@@ -39,7 +40,7 @@ public:
 
 private:
 	struct node {
-		node() : data(0), next(nullptr) {}
+		node() : data(nullptr), next(nullptr) {}
 		node(T data) : data(data), next(nullptr) {}
 
 		T data;

@@ -42,4 +42,13 @@ void run_tests() {
 	llistA.append(llistB);
 
 	llistString(llistA);
+
+	llistA.set(llistA.size() - 1, -12);
+
+	llistString(llistA);
+	llistString(llistB);
+
+	llistB.insert(3, llistA);
+
+	llistString(llistB);
 }

@@ -53,10 +53,23 @@ void LinkedList<T>::insert(int index, T data) {
 template <typename T>
 void LinkedList<T>::insert(int index, LinkedList<T>& llist) {
 	node* n = head;
+	node* othern = llist.head;
 
 	for (int i = 0; i < index; i++) {
 		n = n->next;
 	}
+
+	node* displaced = n->next;
+
+	while (othern != nullptr) {
+
+		node* t = new node(othern->data);
+		n->next = t;
+		n = t;
+		othern = othern->next;
+	}
+
+	n->next = displaced;
 }
 
 template <typename T>
@@ -85,6 +98,15 @@ T LinkedList<T>::at(int index) {
 		n = n->next;
 	}
 	return n->data;
+}
+
+template <typename T>
+void LinkedList<T>::set(int index, T data) {
+	node* n = head;
+	for (int i = 0; i < index; i++) {
+		n = n->next;
+	}
+	n->data = data;
 }
 
 template <typename T>
