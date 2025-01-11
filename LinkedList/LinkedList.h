@@ -7,10 +7,7 @@ template <typename T>
 class LinkedList {
 public:
 
-	LinkedList() {
-		head = nullptr;
-	}
-
+	LinkedList() : head(nullptr) {}
 	~LinkedList() {
 		node* n = head;
 
