@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArrayList", "ArrayList\Arra
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack", "Stack\Stack.vcxproj", "{C3A1A289-9304-414F-8740-38CF3F4C7487}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Map", "Map\Map.vcxproj", "{90286B2D-7D0A-4DE4-B572-7D2D2B3AB1B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{C3A1A289-9304-414F-8740-38CF3F4C7487}.Release|x64.Build.0 = Release|x64
 		{C3A1A289-9304-414F-8740-38CF3F4C7487}.Release|x86.ActiveCfg = Release|Win32
 		{C3A1A289-9304-414F-8740-38CF3F4C7487}.Release|x86.Build.0 = Release|Win32
+		{90286B2D-7D0A-4DE4-B572-7D2D2B3AB1B2}.Debug|x64.ActiveCfg = Debug|x64
+		{90286B2D-7D0A-4DE4-B572-7D2D2B3AB1B2}.Debug|x64.Build.0 = Debug|x64
+		{90286B2D-7D0A-4DE4-B572-7D2D2B3AB1B2}.Debug|x86.ActiveCfg = Debug|Win32
+		{90286B2D-7D0A-4DE4-B572-7D2D2B3AB1B2}.Debug|x86.Build.0 = Debug|Win32
+		{90286B2D-7D0A-4DE4-B572-7D2D2B3AB1B2}.Release|x64.ActiveCfg = Release|x64
+		{90286B2D-7D0A-4DE4-B572-7D2D2B3AB1B2}.Release|x64.Build.0 = Release|x64
+		{90286B2D-7D0A-4DE4-B572-7D2D2B3AB1B2}.Release|x86.ActiveCfg = Release|Win32
+		{90286B2D-7D0A-4DE4-B572-7D2D2B3AB1B2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
